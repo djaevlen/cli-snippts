@@ -2,7 +2,7 @@
 Collection of CLI snippets
 
 
-### Pack a tar file. Without compression
+### Pack a folder to a tar file. Without compression
 `tar cvf myfolder.tar myfolder`
 
 
