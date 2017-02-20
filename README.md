@@ -8,3 +8,9 @@ Collection of CLI snippets
 
 ### Extract a tar file. Without compression
 `tar -xvf file.tar`
+
+### Test NGINX before restart
+`sudo nginx -c /etc/nginx/nginx.conf -t`
+
+### Restart NGINX
+`sudo /etc/init.d/nginx restart`
