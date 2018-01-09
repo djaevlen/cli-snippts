@@ -16,7 +16,7 @@ Collection of CLI snippets
 `sudo /etc/init.d/nginx restart`
 
 ### Create SSL cert for localhost ###
-`openssl req \                                                                                              →  ~ openssl req \
+`openssl req \
     -newkey rsa:2048 \
     -x509 \
     -nodes \
